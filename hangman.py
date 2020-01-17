@@ -42,7 +42,7 @@ if __name__ == "__main__":
 	while True:
 		letter = input(f"Enter a character: ({chances} chances left) ")
 
-		# if the user inputs more than one character then tell the user		
+		# if the user inputs more than one character or blank then tell the user		
 		if len(letter) > 1 or letter == "":
 			print("\nPlease check again!\n")
 			continue
