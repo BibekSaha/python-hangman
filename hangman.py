@@ -61,3 +61,5 @@ if __name__ == "__main__":
 			print(f"The word was {word}")
 			print("Better luck next time...")
 			break
+
+input("\n\nPress enter to exit...")
